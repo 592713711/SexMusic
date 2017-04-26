@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bilibili.magicasakura.widgets.TintTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/listPreferredItemHeightSmall"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?attr/listPreferredItemPaddingRight"
+    android:drawablePadding="10dp"
+    android:gravity="center_vertical|start"
+    android:layout_gravity="center"
+    android:maxLines="1"
+    android:drawableLeft="@drawable/topmenu_icn_skin"
+    app:drawableLeftTint="@color/theme_color_primary"
+    android:textAppearance="?attr/textAppearanceListItem"
+    android:textColor="?android:attr/textColorPrimary" />
